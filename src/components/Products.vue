@@ -25,7 +25,7 @@
     <p v-if="message!='finished'">{{message}}</p>
     <div v-if="firsttable!='true'" class="btn-group" role="group">
             <input class="w-25" v-model="pageNum" type="number" required>
-            <button type="button" class="btn btn-secondary" @click="getsignals()" ref="btnchngpage" onclick="this.disabled = true;">Jump to page #</button>
+            <button type="button" class="btn btn-secondary" @click="getsignals()" ref="btnchngpage">Jump to page #</button>
     </div>
   </div> 
 </template>
